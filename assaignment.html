@@ -1,0 +1,91 @@
+<html>
+<body bgcolor="white">
+<h3>field marked(*) are required<align="left"</h3><hr color=red><hr color=blue>
+<form>
+<fieldset>
+<legend><font color=green>input text field variation</legend>
+<table>
+<tr><td>first name*:</td><td><input type=text  pattern="[A-Z][a-zA-Z]" placeholder=firstname required></tr>
+<tr><td>lastname*:</td><td><input type=text pattern="[A-Z][a-zA-Z]" placeholder=lastname required></tr>
+</form>
+</table>
+</fieldset><br><br>
+<form>
+<fieldset>
+<legend><font color=green>email and url validation</legend>
+<table >
+<tr><td>email*:</td><td><input type=text placeholder=e.g.swapnil@gmail.com></tr>
+<tr><td>website*:</td><td><input type=text placeholder=e.g.http//htmlandcss.com></tr>
+</form>
+</table>
+</fieldset><br><br>
+<form>
+<fieldset>
+<legend><font color=green>mobile and phone validation</legend>
+<table >
+<tr><td>mobile*</td><td><input type=number placeholder="please enter ten digit number"></tr>
+</form>
+</table>
+</fieldset><br><br>
+
+<form>
+<fieldset>
+<legend><font color=green>drop down validation</legend>
+<table >
+<tr><td>country*</td><td><select name=s1>
+<option>india</option>
+<option>pakistan</option>
+<option>iraq</option>
+</form>
+</table>
+</fieldset><br><br>
+
+<form>
+<fieldset>
+<legend><font color=green>number validation with specific range</legend>
+<table >
+<tr><td>postcode*</td><td><input type=number </tr>
+</form>
+</table>
+</fieldset><br><br>
+
+<form>
+<fieldset>
+<legend><font color=green>textarea validation</legend>
+<table >
+<tr><td>address*</td><td><input type=text</tr>
+</form>
+</table>
+</fieldset><br><br>
+
+<form>
+<fieldset>
+<legend><font color=green>checkbox and radio validation </legend>
+<table >
+<tr><td>agree to t&c*</td><td><input type="checkbox"</tr>
+<tr><td>general*</td><td>male<input type="radio" >female<input type="radio"</tr>
+</form>
+</table>
+</fieldset><br><br>
+
+
+<form>
+<fieldset>
+<legend><font color=green>password using pattern </legend>
+<table >
+<tr><td>password*</td><td><input type="number"</tr>
+<input type="button" value="submit"></button>
+<script>
+function showform()
+{
+var x="passport number<input type=number>";
+document.getElementById('hi').innerHTML=x;
+}
+</script>
+<input type="button" value="foreign student"onclick="showform()">
+<div id="hi"></div>
+</form>
+</table>
+</fieldset><br><br>
+<tr><input type="submit" align=right></tr>
+</html>
